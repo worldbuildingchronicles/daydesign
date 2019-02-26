@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>758132951647-qmd6u4id05fn34me71msavhkkmum7pk0.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.758132951647-qmd6u4id05fn34me71msavhkkmum7pk0</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB6AMBPXGte2S70q7Azy3EdnAd4VUMo22M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>758132951647</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.letap.magic</string>
+	<key>PROJECT_ID</key>
+	<string>daydesign-a277f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>daydesign-a277f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:758132951647:ios:07633c2c7c38620e</string>
+	<key>DATABASE_URL</key>
+	<string>https://daydesign-a277f.firebaseio.com</string>
+</dict>
+</plist>

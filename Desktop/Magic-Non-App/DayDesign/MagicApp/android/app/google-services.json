@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "758132951647",
+    "firebase_url": "https://daydesign-a277f.firebaseio.com",
+    "project_id": "daydesign-a277f",
+    "storage_bucket": "daydesign-a277f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:758132951647:android:07633c2c7c38620e",
+        "android_client_info": {
+          "package_name": "com.letap.magic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "758132951647-hh4jqtp2d6036qan7c87rheuvofce1vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFXj3Wh8qr1sdvYnQ3974usIjCtr5wVJg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
