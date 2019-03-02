@@ -31,11 +31,7 @@ export default class MenuTwo extends React.Component {
     componentDidMount() {
         
     }
-    
-    onPayWithCardPressed = () => {
-        
-    }
-    
+  
     
     
     viewFlatListMockData = [{
@@ -71,18 +67,24 @@ export default class MenuTwo extends React.Component {
         style={styles.menuView}>
         <View
         style={styles.backgroundView}>
-        <View
-        style={{
-        flexDirection: "row",
-        }}>
+       
+        
+        <TouchableOpacity
+        onPress={() => this.props.navigation.goBack()}
+        style={styles.icCloseButton}>
         <Image
         source={require("./../assets/images/ic-close.png")}
-        style={styles.icCloseImage}/>
+        style={styles.buttonButtonImage}/>
+        </TouchableOpacity>
+        
+        
+        
         <View
         style={{
-        width: "100%",
-        height: "100%",
-        flexDirection: "row",
+            
+            //position: "absolute",
+        //flex: 1,
+       // flexDirection: "row",
         }}>
         
         <View
@@ -100,12 +102,9 @@ export default class MenuTwo extends React.Component {
         </View>
         </View>
         </View>
-        </View>
         <View
         style={{
-        width: "100%",
-        height: "100%",
-        position: "absolute",
+        flex: 1,
         }}>
         <Text
         style={styles.shawarmaPlusText}>Checkout</Text>
@@ -146,21 +145,12 @@ const styles = StyleSheet.create({
                                  menuView: {
                                  backgroundColor: "rgb(246, 246, 246)",
                                  flex: 1,
+
                                  },
-                                 backgroundView: {
+                                backgroundView: {
                                  backgroundColor: "rgba(55, 58, 61, 0.9)",
                                  height: hp('16.5%'),
-                                 },
-                                 icCloseImage: {
-                                 resizeMode: "center",
-                                 backgroundColor: "transparent",
-                                 shadowColor: "rgba(0, 0, 0, 0.11)",
-                                 shadowRadius: 3,
-                                 shadowOpacity: 1,
-                                 marginLeft: 18,
-                                 marginTop: 25,
-                                 width: 50,
-                                 height: null,
+                                 flexDirection: "row",
                                  },
                                  graybackgroundView: {
                                  backgroundColor: "rgba(226, 175, 47, 0.99)",
@@ -169,9 +159,10 @@ const styles = StyleSheet.create({
                                  borderColor: "rgb(246, 246, 246)",
                                  borderStyle: "solid",
                                  marginTop: hp('3%'),
-                                 marginLeft: wp('23%'),
                                  width: 70,
                                  height: 70,
+                                 marginLeft: wp('25%'),
+
                                  },
                                  nextmoneyText: {
                                  color: "white",
@@ -201,9 +192,8 @@ const styles = StyleSheet.create({
                                  fontWeight: "normal",
                                  textAlign: "center",
                                  backgroundColor: "rgb(114, 167, 228)",
-                                 borderRadius: 20,
-                                 marginTop:  hp('16.5%'),
-                                 
+                                 overflow: 'hidden',
+                                 // marginTop: hp('14%'),
                                  width: wp('100%'),
                                  height: hp('5%'),
                                  //flex: 1,
@@ -211,11 +201,8 @@ const styles = StyleSheet.create({
                                  
                                  
                                  
-                                 
-                                 
                                  viewFlatList: {
                                  backgroundColor: "transparent",
-                                 
                                  },
                                  viewFlatListViewWrapper: {
                                  marginTop: hp('1%'),
@@ -247,6 +234,30 @@ const styles = StyleSheet.create({
                                  width: 358,
                                  marginTop: hp('2%'),
                                  
+                                 },
+                                 icCloseButton: {
+                                 backgroundColor: "transparent",
+                                 shadowColor: "rgba(0, 0, 0, 0.11)",
+                                 shadowRadius: 3,
+                                 shadowOpacity: 1,
+                                 flexDirection: "row",
+                                 alignItems: "center",
+                                 justifyContent: "center",
+                                 padding: 0,
+                                 marginLeft: wp('5%'),
+                                 marginTop:  hp('5%'),
+                                 width: 50,
+                                 height: 50,
+                                 },
+                                 icCloseButtonText: {
+                                 color: "black",
+                                 fontSize: 12,
+                                 fontStyle: "normal",
+                                 fontWeight: "normal",
+                                 textAlign: "left",
+                                 },
+                                 icCloseButtonImage: {
+                                 resizeMode: "contain",
                                  },
                                  tax600Text: {
                                  color: "rgb(55, 58, 61)",

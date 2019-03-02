@@ -54,7 +54,8 @@ export default class TimeCellTwo extends React.Component {
 
     renderViewFlatListCell = ({ item }) => {
 
-        return <RestaurantCell/>
+        return <RestaurantCell navigation={this.props.navigation}/>
+
     }
 
     

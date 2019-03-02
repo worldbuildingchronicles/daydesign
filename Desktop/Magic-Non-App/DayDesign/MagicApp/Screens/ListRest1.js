@@ -75,6 +75,7 @@ const styles = StyleSheet.create({
 	listRest1: {
 		backgroundColor: "white",
 		height: 101,
+                                 marginBottom: 4,
 	},
 	group3View: {
 		backgroundColor: "transparent",
@@ -113,6 +114,7 @@ const styles = StyleSheet.create({
 	textTwoText: {
 		color: "rgba(55, 58, 61, 0.26)",
 		fontSize: 16,
+        textDecorationLine: 'line-through',
 		fontStyle: "normal",
 		fontWeight: "normal",
 		textAlign: "left",

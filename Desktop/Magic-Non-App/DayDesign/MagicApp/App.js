@@ -154,7 +154,7 @@ export default class App extends React.Component {
     launchWork(that, username, pass){
         firebase.auth().onAuthStateChanged(user => {
                                            if(user){
-                                        //   firebase.auth().signOut();
+                                        //  firebase.auth().signOut();
                                            //  console.log("here")
                                            that.setState({firstLaunch: false, signedIn: true, checkedSignIn: true})
                                            }

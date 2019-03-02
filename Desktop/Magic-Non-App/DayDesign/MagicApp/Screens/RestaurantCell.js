@@ -6,8 +6,10 @@
 //  Copyright © 2018 magic. All rights reserved.
 //
 
-import { Text, View, StyleSheet } from "react-native"
+import { Text, View, StyleSheet, TouchableOpacity } from "react-native"
 import React from "react"
+import MenuFour from "./MenuFour"
+
 
 
 export default class RestaurantCell extends React.Component {
@@ -25,6 +27,9 @@ export default class RestaurantCell extends React.Component {
         return <View
         style={styles.restaurantcell}>
     
+
+        <TouchableOpacity
+        onPress={() => {this.props.navigation.navigate("MenuFour")}}>
         
         <View
         style={styles.graybackgroundView}>
@@ -81,7 +86,8 @@ export default class RestaurantCell extends React.Component {
         </View>
         </View>
         
-        
+        </TouchableOpacity>
+
         </View>
     }
 }

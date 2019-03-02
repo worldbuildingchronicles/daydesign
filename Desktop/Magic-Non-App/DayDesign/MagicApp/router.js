@@ -55,7 +55,7 @@ const DynamicNavigator = createStackNavigator({
                                               }
                                               );
 
-const SignUpNavigator = createStackNavigator({
+const SignUpNavigator = createSwitchNavigator({
                                               
                                               Login: {
                                               screen: Login,
